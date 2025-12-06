@@ -1,0 +1,80 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH=././.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib/lean:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib /Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././LoVe/LoVe03_BackwardProofs_Demo.lean -R ./././. -o ././.lake/build/lib/LoVe/LoVe03_BackwardProofs_Demo.olean -i ././.lake/build/lib/LoVe/LoVe03_BackwardProofs_Demo.ilean -c ././.lake/build/ir/LoVe/LoVe03_BackwardProofs_Demo.c --json",
+   "level": "trace"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:55:55: unused variable `hb`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:78:54: unused variable `hb`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:86:16: unused variable `hb`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:134:0: True.intro : True",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:135:0: And.intro {a b : Prop} (left : a) (right : b) : a ∧ b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:136:0: Or.inl {a b : Prop} (h : a) : a ∨ b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:137:0: Or.inr {a b : Prop} (h : b) : a ∨ b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:138:0: Iff.intro {a b : Prop} (mp : a → b) (mpr : b → a) : a ↔ b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:139:0: Exists.intro.{u} {α : Sort u} {p : α → Prop} (w : α) (h : p w) : Exists p",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:143:0: False.elim.{u} {C : Sort u} (h : False) : C",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:144:0: And.left {a b : Prop} (self : a ∧ b) : a",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:145:0: And.right {a b : Prop} (self : a ∧ b) : b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:146:0: Or.elim {a b c : Prop} (h : a ∨ b) (left : a → c) (right : b → c) : c",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:147:0: Iff.mp {a b : Prop} (self : a ↔ b) : a → b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:148:0: Iff.mpr {a b : Prop} (self : a ↔ b) : b → a",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:149:0: Exists.elim.{u} {α : Sort u} {p : α → Prop} {b : Prop} (h₁ : ∃ x, p x) (h₂ : ∀ (a : α), p a → b) : b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:153:0: def Not : Prop → Prop :=\nfun a => a → False",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:154:0: Classical.em (p : Prop) : p ∨ ¬p",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:155:0: Classical.byContradiction {p : Prop} (h : ¬p → False) : p",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:235:0: Eq.refl.{u_1} {α : Sort u_1} (a : α) : a = a",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:236:0: Eq.symm.{u} {α : Sort u} {a b : α} (h : a = b) : b = a",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:237:0: Eq.trans.{u} {α : Sort u} {a b c : α} (h₁ : a = b) (h₂ : b = c) : a = c",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:238:0: Eq.subst.{u} {α : Sort u} {motive : α → Prop} {a b : α} (h₁ : a = b) (h₂ : motive a) : motive b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:351:40: unused variable `ha`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_Demo.lean:352:7: unused variable `hab`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"}],
+ "depHash": "6399401110897335795"}

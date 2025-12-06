@@ -1,0 +1,32 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH=././.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib/lean:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib /Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././LoVe/LoVe04_ForwardProofs_Demo.lean -R ./././. -o ././.lake/build/lib/LoVe/LoVe04_ForwardProofs_Demo.olean -i ././.lake/build/lib/LoVe/LoVe04_ForwardProofs_Demo.ilean -c ././.lake/build/ir/LoVe/LoVe04_ForwardProofs_Demo.c --json",
+   "level": "trace"},
+  {"message":
+   "././././LoVe/LoVe04_ForwardProofs_Demo.lean:30:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe04_ForwardProofs_Demo.lean:55:9: unused variable `hb`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe04_ForwardProofs_Demo.lean:59:53: unused variable `hb`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe04_ForwardProofs_Demo.lean:64:56: unused variable `hb`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe04_ForwardProofs_Demo.lean:163:0: theorem LoVe.ForwardProofs.beast_666 : ∀ (beast : ℕ), (∀ (n : ℕ), n = 666 → beast ≥ n) ↔ beast ≥ 666 :=\nfun beast => Forall.one_point 666 (GE.ge beast)",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe04_ForwardProofs_Demo.lean:374:0: theorem LoVe.ForwardProofs.And_swap : ∀ (a b : Prop), a ∧ b → b ∧ a :=\nfun a b hab =>\n  let_fun ha := hab.left;\n  let_fun hb := hab.right;\n  let_fun this := ⟨hb, ha⟩;\n  this",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe04_ForwardProofs_Demo.lean:375:0: theorem LoVe.ForwardProofs.And_swap_raw : ∀ (a b : Prop), a ∧ b → b ∧ a :=\nfun a b hab => ⟨hab.right, hab.left⟩",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe04_ForwardProofs_Demo.lean:376:0: theorem LoVe.ForwardProofs.And_swap_tactical : ∀ (a b : Prop), a ∧ b → b ∧ a :=\nfun a b hab => ⟨hab.right, hab.left⟩",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe04_ForwardProofs_Demo.lean:392:0: LoVe.reverse {α : Type} : List α → List α",
+   "level": "info"}],
+ "depHash": "4930733314264331567"}

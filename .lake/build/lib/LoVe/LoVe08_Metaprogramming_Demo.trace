@@ -1,0 +1,140 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH=././.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib/lean:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib /Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././LoVe/LoVe08_Metaprogramming_Demo.lean -R ./././. -o ././.lake/build/lib/LoVe/LoVe08_Metaprogramming_Demo.olean -i ././.lake/build/lib/LoVe/LoVe08_Metaprogramming_Demo.ilean -c ././.lake/build/ir/LoVe/LoVe08_Metaprogramming_Demo.c --json",
+   "level": "trace"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:67:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:78:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:102:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:112:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:122:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:162:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:208:4: Lean version 4.14.0",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:208:4: All goals:",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:208:4: [case left\n α : Type\n a : α\n ⊢ Even 18,\n case right\n α : Type\n a : α\n ⊢ Even 20]",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:208:4: First goal's target:",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:208:4: Even 18",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:204:40: unused variable `a`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:208:4: 'trace_goals' tactic does nothing\nnote: this linter can be disabled with `set_option linter.unusedTactic false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:245:0: inductive Lean.Expr : Type\nnumber of parameters: 0\nconstructors:\nLean.Expr.bvar : ℕ → Expr\nLean.Expr.fvar : FVarId → Expr\nLean.Expr.mvar : MVarId → Expr\nLean.Expr.sort : Level → Expr\nLean.Expr.const : Name → List Level → Expr\nLean.Expr.app : Expr → Expr → Expr\nLean.Expr.lam : Name → Expr → Expr → BinderInfo → Expr\nLean.Expr.forallE : Name → Expr → Expr → BinderInfo → Expr\nLean.Expr.letE : Name → Expr → Expr → Expr → Bool → Expr\nLean.Expr.lit : Literal → Expr\nLean.Expr.mdata : MData → Expr → Expr\nLean.Expr.proj : Name → ℕ → Expr → Expr",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:256:0: `x : Name",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:257:0: `x",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:258:0: `Even",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:259:0: `LoVe.Even",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:260:0: `LoVe.Even",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:268:0: Lean.Expr.const (declName : Name) (us : List Level) : Expr",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:270:0: Nat.add",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:271:0: ℕ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:276:0: Lean.Expr.sort (u : Level) : Expr",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:278:0: Prop",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:279:0: Type",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:284:0: Lean.Expr.fvar (fvarId : FVarId) : Expr",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:286:0: { name := `n } : FVarId",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:287:0: n",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:292:0: Lean.Expr.mvar (mvarId : MVarId) : Expr",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:297:0: Lean.Expr.app (fn arg : Expr) : Expr",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:299:0: Nat.zero.succ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:305:0: Lean.Expr.bvar (deBruijnIndex : ℕ) : Expr",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:306:0: Lean.Expr.lam (binderName : Name) (binderType body : Expr) (binderInfo : BinderInfo) : Expr",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:308:0: #0",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:310:0: fun x => x",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:313:0: fun x y => x",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:321:0: Lean.Expr.forallE (binderName : Name) (binderType body : Expr) (binderInfo : BinderInfo) : Expr",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:323:0: ∀ (n : ℕ), Even n",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe08_Metaprogramming_Demo.lean:327:0: ℕ → Bool",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:333:0: Lean.Expr.letE (declName : Name) (type value body : Expr) (nonDep : Bool) : Expr",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:334:0: Lean.Expr.lit : Literal → Expr",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:335:0: Lean.Expr.mdata (data : MData) (expr : Expr) : Expr",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:336:0: Lean.Expr.proj (typeName : Name) (idx : ℕ) (struct : Expr) : Expr",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:376:24: unused variable `Q`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:376:27: unused variable `R`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:385:0: Lean.Expr.and? (p : Expr) : Option (Expr × Expr)",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:485:5: Proved directly by symm",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:495:5: Proved directly by Eq.trans",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:499:5: Proved directly by List.reverse_involutive",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe08_Metaprogramming_Demo.lean:505:5: Try this: exact reverse_twice xs",
+   "level": "info"}],
+ "depHash": "2073767153408102328"}

@@ -1,0 +1,103 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH=././.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib/lean:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib /Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean -R ./././. -o ././.lake/build/lib/LoVe/LoVe02_ProgramsAndTheorems_Demo.olean -i ././.lake/build/lib/LoVe/LoVe02_ProgramsAndTheorems_Demo.ilean -c ././.lake/build/ir/LoVe/LoVe02_ProgramsAndTheorems_Demo.c --json",
+   "level": "trace"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:38:0: LoVe.MyNat.Nat : Type",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:39:0: LoVe.MyNat.Nat.zero : Nat",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:40:0: LoVe.MyNat.Nat.succ : Nat → Nat",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:44:0: inductive LoVe.MyNat.Nat : Type\nnumber of parameters: 0\nconstructors:\nLoVe.MyNat.Nat.zero : Nat\nLoVe.MyNat.Nat.succ : Nat → Nat",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:51:0: inductive Nat : Type\nnumber of parameters: 0\nconstructors:\nNat.zero : ℕ\nNat.succ : ℕ → ℕ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:52:0: inductive LoVe.MyNat.Nat : Type\nnumber of parameters: 0\nconstructors:\nLoVe.MyNat.Nat.zero : MyNat.Nat\nLoVe.MyNat.Nat.succ : MyNat.Nat → MyNat.Nat",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:74:0: LoVe.MyList.List (α : Type) : Type",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:75:0: LoVe.MyList.List.nil {α : Type} : List α",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:76:0: LoVe.MyList.List.cons {α : Type} : α → List α → List α",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:77:0: inductive LoVe.MyList.List : Type → Type\nnumber of parameters: 1\nconstructors:\nLoVe.MyList.List.nil : {α : Type} → List α\nLoVe.MyList.List.cons : {α : Type} → α → List α → List α",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:81:0: inductive List.{u} : Type u → Type u\nnumber of parameters: 1\nconstructors:\nList.nil : {α : Type u} → List α\nList.cons : {α : Type u} → α → List α → List α",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:82:0: inductive LoVe.MyList.List : Type → Type\nnumber of parameters: 1\nconstructors:\nLoVe.MyList.List.nil : {α : Type} → MyList.List α\nLoVe.MyList.List.cons : {α : Type} → α → MyList.List α → MyList.List α",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:104:0: 9",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:105:0: 9",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:111:0: 14",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:113:0: def LoVe.mul : ℕ → ℕ → ℕ :=\nfun x x_1 =>\n  Nat.brecOn (motive := fun x => ℕ → ℕ) x_1\n    (fun x f x_2 =>\n      (match (motive := ℕ → (x : ℕ) → Nat.below (motive := fun x => ℕ → ℕ) x → ℕ) x_2, x with\n        | m, Nat.zero => fun x => Nat.zero\n        | m, n.succ => fun x => add m (x.1 m))\n        f)\n    x",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:119:0: 32",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:131:0: 32",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:137:0: LoVe.iter (α : Type) (z : α) (f : α → α) : ℕ → α",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:142:0: 32",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:152:0: LoVe.append (α : Type) : List α → List α → List α",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:153:0: [3, 1, 4, 1, 5]",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:154:0: [3, 1, 4, 1, 5]",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:163:0: [3, 1, 4, 1, 5]",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:170:0: @appendImplicit : {α : Type} → List α → List α → List α",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:171:0: [3, 1, 4, 1, 5]",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:172:0: [3, 1, 4, 1, 5]",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:196:0: 0",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:196:16: unused variable `x`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:210:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:214:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:218:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:222:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:226:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe02_ProgramsAndTheorems_Demo.lean:230:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "854617841470555640"}

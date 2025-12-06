@@ -1,0 +1,85 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH=././.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib/lean:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib /Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././LoVe/LoVe05_FunctionalProgramming_Demo.lean -R ./././. -o ././.lake/build/lib/LoVe/LoVe05_FunctionalProgramming_Demo.olean -i ././.lake/build/lib/LoVe/LoVe05_FunctionalProgramming_Demo.ilean -c ././.lake/build/ir/LoVe/LoVe05_FunctionalProgramming_Demo.c --json",
+   "level": "trace"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:24:0: inductive Nat : Type\nnumber of parameters: 0\nconstructors:\nNat.zero : ℕ\nNat.succ : ℕ → ℕ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:150:0: LoVe.RGB.mk (red green blue : ℕ) : RGB",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:151:0: LoVe.RGB.red (self : RGB) : ℕ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:152:0: LoVe.RGB.green (self : RGB) : ℕ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:153:0: LoVe.RGB.blue (self : RGB) : ℕ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:181:0: structure LoVe.RGBA : Type\nnumber of parameters: 0\nconstructor:\nLoVe.RGBA.mk : RGB → ℕ → RGBA\nfields:\ntoRGB : RGB\nalpha : ℕ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:195:0: def LoVe.pureRed : RGB :=\n{ red := 255, green := 0, blue := 0 }",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:196:0: def LoVe.pureGreen : RGB :=\n{ red := 0, green := 255, blue := 0 }",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:197:0: def LoVe.semitransparentGreen : RGBA :=\nlet __src := pureGreen;\n{ toRGB := __src, alpha := 127 }",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:221:0: class Inhabited.{u} : Sort u → Sort (max 1 u)\nnumber of parameters: 1\nconstructor:\nInhabited.mk : {α : Sort u} → α → Inhabited α\nfields:\ndefault : α",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:229:0: 0",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:230:0: []",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:240:0: 0",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:242:0: List.head.{u} {α : Type u} (as : List α) : as ≠ [] → α",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:246:19: unused variable `a`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:255:0: class Std.Associative.{u} : {α : Sort u} → (α → α → α) → Prop\nnumber of parameters: 2\nconstructor:\nStd.Associative.mk : ∀ {α : Sort u} {op : α → α → α},\n  (∀ (a b c : α), op (op a b) c = op a (op b c)) → Std.Associative op\nfields:\nassoc : ∀ (a b c : α), op (op a b) c = op a (op b c)",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:256:0: class Std.Commutative.{u} : {α : Sort u} → (α → α → α) → Prop\nnumber of parameters: 2\nconstructor:\nStd.Commutative.mk : ∀ {α : Sort u} {op : α → α → α}, (∀ (a b : α), op a b = op b a) → Std.Commutative op\nfields:\ncomm : ∀ (a b : α), op a b = op b a",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:264:0: inductive List.{u} : Type u → Type u\nnumber of parameters: 1\nconstructors:\nList.nil : {α : Type u} → List α\nList.cons : {α : Type u} → α → List α → List α",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:314:0: List.map.{u, v} {α : Type u} {β : Type v} (f : α → β) : List α → List β",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:351:0: some 3",
+   "level": "info"},
+  {"message": "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:352:0: 3",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:359:0: List.zip.{u, v} {α : Type u} {β : Type v} : List α → List β → List (α × β)",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:363:4: unused variable `x`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:365:0: List.length.{u_1} {α : Type u_1} : List α → ℕ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:371:0: Classical.em (p : Prop) : p ∨ ¬p",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:420:0: inductive Tree.{u} : Type u → Type u\nnumber of parameters: 1\nconstructors:\nTree.nil : {α : Type u} → Tree α\nTree.node : {α : Type u} → α → Tree α → Tree α → Tree α",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:475:0: LoVe.Vec.nil {α : Type} : Vec α 0",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe05_FunctionalProgramming_Demo.lean:476:0: LoVe.Vec.cons {α : Type} (a : α) {n : ℕ} (v : Vec α n) : Vec α (n + 1)",
+   "level": "info"}],
+ "depHash": "2662343001875685286"}

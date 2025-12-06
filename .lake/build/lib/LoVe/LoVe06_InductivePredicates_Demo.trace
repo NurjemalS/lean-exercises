@@ -1,0 +1,53 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH=././.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib/lean:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib /Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././LoVe/LoVe06_InductivePredicates_Demo.lean -R ./././. -o ././.lake/build/lib/LoVe/LoVe06_InductivePredicates_Demo.olean -i ././.lake/build/lib/LoVe/LoVe06_InductivePredicates_Demo.ilean -c ././.lake/build/ir/LoVe/LoVe06_InductivePredicates_Demo.c --json",
+   "level": "trace"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:154:4: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:206:0: structure And : Prop → Prop → Prop\nnumber of parameters: 2\nconstructor:\nAnd.intro : ∀ {a b : Prop}, a → b → a ∧ b\nfields:\nleft : a\nright : b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:207:0: inductive Or : Prop → Prop → Prop\nnumber of parameters: 2\nconstructors:\nOr.inl : ∀ {a b : Prop}, a → a ∨ b\nOr.inr : ∀ {a b : Prop}, b → a ∨ b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:208:0: structure Iff : Prop → Prop → Prop\nnumber of parameters: 2\nconstructor:\nIff.intro : ∀ {a b : Prop}, (a → b) → (b → a) → (a ↔ b)\nfields:\nmp : a → b\nmpr : b → a",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:209:0: inductive Exists.{u} : {α : Sort u} → (α → Prop) → Prop\nnumber of parameters: 2\nconstructors:\nExists.intro : ∀ {α : Sort u} {p : α → Prop} (w : α), p w → Exists p",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:210:0: inductive True : Prop\nnumber of parameters: 0\nconstructors:\nTrue.intro : True",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:211:0: inductive False : Prop\nnumber of parameters: 0\nconstructors:",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:212:0: inductive Eq.{u_1} : {α : Sort u_1} → α → α → Prop\nnumber of parameters: 2\nconstructors:\nEq.refl : ∀ {α : Sort u_1} (a : α), a = a",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:282:0: funext.{u, v} {α : Sort u} {β : α → Sort v} {f g : (x : α) → β x} (h : ∀ (x : α), f x = g x) : f = g",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:283:0: propext {a b : Prop} : (a ↔ b) → a = b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:303:0: inductive Eq.{u_1} : {α : Sort u_1} → α → α → Prop\nnumber of parameters: 2\nconstructors:\nEq.refl : ∀ {α : Sort u_1} (a : α), a = a",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:305:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:312:0: Classical.em (p : Prop) : p ∨ ¬p",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:313:0: inductive Or : Prop → Prop → Prop\nnumber of parameters: 2\nconstructors:\nOr.inl : ∀ {a b : Prop}, a → a ∨ b\nOr.inr : ∀ {a b : Prop}, b → a ∨ b",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:315:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe06_InductivePredicates_Demo.lean:468:0: Tree.{u} (α : Type u) : Type u",
+   "level": "info"}],
+ "depHash": "3748130934230106433"}

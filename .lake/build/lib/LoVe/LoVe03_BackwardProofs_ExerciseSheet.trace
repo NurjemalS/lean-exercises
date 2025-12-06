@@ -1,0 +1,59 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH=././.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib/lean:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib /Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean -R ./././. -o ././.lake/build/lib/LoVe/LoVe03_BackwardProofs_ExerciseSheet.olean -i ././.lake/build/lib/LoVe/LoVe03_BackwardProofs_ExerciseSheet.ilean -c ././.lake/build/ir/LoVe/LoVe03_BackwardProofs_ExerciseSheet.c --json",
+   "level": "trace"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:28:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:32:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:36:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:40:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:46:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:50:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:56:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:66:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:76:0: LoVe.mul : ℕ → ℕ → ℕ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:78:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:82:0: LoVe.BackwardProofs.add_succ (m n : ℕ) : add m.succ n = (add m n).succ",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:83:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:90:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:94:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:102:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:131:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:137:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././LoVe/LoVe03_BackwardProofs_ExerciseSheet.lean:145:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "12152497396548640288"}
