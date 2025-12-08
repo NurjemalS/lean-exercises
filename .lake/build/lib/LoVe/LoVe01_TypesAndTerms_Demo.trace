@@ -2,48 +2,48 @@
  [{"message":
    ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH=././.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Cli/.lake/build/lib:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib/lean:/Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/lib /Users/nurjemal/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././LoVe/LoVe01_TypesAndTerms_Demo.lean -R ./././. -o ././.lake/build/lib/LoVe/LoVe01_TypesAndTerms_Demo.olean -i ././.lake/build/lib/LoVe/LoVe01_TypesAndTerms_Demo.ilean -c ././.lake/build/ir/LoVe/LoVe01_TypesAndTerms_Demo.c --json",
    "level": "trace"},
-  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:139:0: ℕ : Type",
+  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:136:0: ℕ : Type",
    "level": "info"},
-  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:140:0: ℤ : Type",
+  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:137:0: ℤ : Type",
    "level": "info"},
-  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:142:0: Empty : Type",
+  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:139:0: Empty : Type",
    "level": "info"},
-  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:143:0: Unit : Type",
+  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:140:0: Unit : Type",
    "level": "info"},
-  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:144:0: Bool : Type",
+  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:141:0: Bool : Type",
    "level": "info"},
-  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:146:0: ℕ → ℤ : Type",
+  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:143:0: ℕ → ℤ : Type",
    "level": "info"},
-  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:147:0: ℤ → ℕ : Type",
-   "level": "info"},
-  {"message":
-   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:148:0: Bool → ℕ → ℤ : Type",
+  {"message": "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:144:0: ℤ → ℕ : Type",
    "level": "info"},
   {"message":
-   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:149:0: (Bool → ℕ) → ℤ : Type",
+   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:145:0: Bool → ℕ → ℤ : Type",
    "level": "info"},
   {"message":
-   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:150:0: ℕ → (Bool → ℕ) → ℤ : Type",
+   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:146:0: (Bool → ℕ) → ℤ : Type",
    "level": "info"},
   {"message":
-   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:152:0: fun x => x : ℕ → ℕ",
+   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:147:0: ℕ → (Bool → ℕ) → ℤ : Type",
    "level": "info"},
   {"message":
-   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:153:0: fun f g h x => h (g (f x)) : (ℕ → ℕ) → (ℕ → ℕ) → (ℕ → ℕ) → ℕ → ℕ",
+   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:149:0: fun x => x : ℕ → ℕ",
    "level": "info"},
   {"message":
-   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:155:0: fun f g h x => h (g (f x)) : (ℕ → ℕ) → (ℕ → ℕ) → (ℕ → ℕ) → ℕ → ℕ",
+   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:150:0: fun f g h x => h (g (f x)) : (ℕ → ℕ) → (ℕ → ℕ) → (ℕ → ℕ) → ℕ → ℕ",
    "level": "info"},
   {"message":
-   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:164:0: fun x => g (f (g a x)) (g x b) : ℤ → ℤ",
+   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:152:0: fun f g h x => h (g (f x)) : (ℕ → ℕ) → (ℕ → ℕ) → (ℕ → ℕ) → ℕ → ℕ",
    "level": "info"},
   {"message":
-   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:165:0: fun x => g (f (g a x)) (g x b) : ℤ → ℤ",
+   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:161:0: fun x => g (f (g a x)) (g x b) : ℤ → ℤ",
    "level": "info"},
   {"message":
-   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:167:0: fun x => x : ?m.271 → ?m.271",
+   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:162:0: fun x => g (f (g a x)) (g x b) : ℤ → ℤ",
    "level": "info"},
   {"message":
-   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:215:26: unused variable `b`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:164:0: fun x => x : ?m.271 → ?m.271",
+   "level": "info"},
+  {"message":
+   "././././LoVe/LoVe01_TypesAndTerms_Demo.lean:212:26: unused variable `b`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
    "level": "warning"}],
- "depHash": "17197539366390191587"}
+ "depHash": "4206106103925792054"}
