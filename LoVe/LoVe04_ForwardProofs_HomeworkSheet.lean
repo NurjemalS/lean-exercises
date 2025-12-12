@@ -38,14 +38,23 @@ Hint: There is an easy way. -/
 
 theorem about_Impl_term :
     ∀a b : Prop, ¬ a ∨ b → a → b :=
-  sorry
-
+  about_Impl
 /- 1.2 (2 points). Prove the same theorem again, this time by providing a
 structured proof, with `fix`, `assume`, and `show`. -/
 
 theorem about_Impl_struct :
     ∀a b : Prop, ¬ a ∨ b → a → b :=
-  sorry
+  fix a b : Prop
+  assume hor : ¬ a ∨ b
+  assume ha : a
+  show b from
+    Or.elim hor
+      (assume hna : ¬ a
+       show b from
+         False.elim (hna ha))
+      (assume hb : b
+       show b from
+         hb)
 
 
 /- ## Question 2 (6 points): Connectives and Quantifiers
@@ -56,7 +65,27 @@ rules for `∀`, `∨`, and `↔`. -/
 
 theorem Or_comm_under_All {α : Type} (p q : α → Prop) :
     (∀x, p x ∨ q x) ↔ (∀x, q x ∨ p x) :=
-  sorry
+  Iff.intro
+    (assume h : ∀x, p x ∨ q x
+     fix x : α
+     show q x ∨ p x from
+       Or.elim (h x)
+         (assume hp : p x
+          show q x ∨ p x from
+            Or.inr hp)
+         (assume hq : q x
+          show q x ∨ p x from
+            Or.inl hq))
+    (assume h : ∀x, q x ∨ p x
+     fix x : α
+     show p x ∨ q x from
+       Or.elim (h x)
+         (assume hq : q x
+          show p x ∨ q x from
+            Or.inr hq)
+         (assume hp : p x
+          show p x ∨ q x from
+            Or.inl hp))
 
 /- 2.2 (3 points). We have proved or stated three of the six possible
 implications between `ExcludedMiddle`, `Peirce`, and `DoubleNegation` in the
@@ -71,15 +100,21 @@ namespace BackwardProofs
 
 theorem Peirce_of_DN :
     DoubleNegation → Peirce :=
-  sorry
+  assume dn : DoubleNegation
+  show Peirce from
+    Peirce_of_EM (SorryTheorems.EM_of_DN dn)
 
 theorem EM_of_Peirce :
     Peirce → ExcludedMiddle :=
-  sorry
+  assume pe : Peirce
+  show ExcludedMiddle from
+    SorryTheorems.EM_of_DN (DN_of_Peirce pe)
 
 theorem dn_of_em :
     ExcludedMiddle → DoubleNegation :=
-  sorry
+  assume em : ExcludedMiddle
+  show DoubleNegation from
+    DN_of_Peirce (Peirce_of_EM em)
 
 end BackwardProofs
 
